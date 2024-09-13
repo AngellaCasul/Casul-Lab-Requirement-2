@@ -13,6 +13,6 @@ OR
 
 Unzip the folder.
 Navigate to the folder using the terminal or command prompt.
-flask run
+"flask run."
 Access the HTML files through the browser by visiting the URL where Flask is running.
 <!--Instructions Complete-->
