@@ -1,0 +1,83 @@
+<!--Templates/result.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+
+    <style>
+        body {
+            background-color: #FBF3D5;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            border-style: double;
+            border-radius: 9px;
+            border-width: 7px;
+            background-color: #EFBC9B;
+            padding: 20px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 20px;
+            margin-left: 90px;
+            margin-right: 90px;
+            border-style: double;
+            border-radius: 9px;
+            border-width: 7px;
+            background-color: #D6DAC8;
+            padding: 15px;
+        }
+
+        nav {text-align: center;}
+
+        a:link {
+            background-color:#9EA1D4;
+            text-decoration: none;
+        }
+
+        a:visited {
+            background-color:#A8D1D1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color:#FD8A8A;
+            text-decoration: underline;
+        }
+
+        a:active {
+            background-color:#FFCBCB;
+            text-decoration: underline;
+        }
+
+        a:link, a:visited {
+        background-color: #DFEBEB;
+        color: black;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+        a:hover, a:active {
+        background-color: #A8D1D1;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Result:</h1>
+    <p style="font-weight: bold;">{{ result }}</p>
+    <nav>
+    <a href="/">Go Back</a>
+    </nav>
+</body>
+</html>
